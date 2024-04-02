@@ -1,0 +1,19 @@
+@import "../node_modules/@syncfusion/ej2-material-theme/styles/material.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+app-root {
+  --light-black: rgb(48, 48, 48, 0.1);
+
+  display: block;
+  min-height: 100vh;
+  width: 210vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #ececec;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
